@@ -1,0 +1,1 @@
+A real-time collaborative code editor with unique room creation, support for multiple languages, drawing tools, live chat, file saving and downloading, and the ability to invite friends via email. Socket.IO is used for real-time features like drawing, chatting, and code editing.
