@@ -1,0 +1,41 @@
+# === Node.js ===
+node_modules/
+.env
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === VS Code ===
+.vscode/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+logs/
+*.pid
+
+# === React / Frontend ===
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/dist/
+
+client/node_modules/
+client/.env
+client/build/
+client/dist/
+
+# === Docker ===
+*.local
+docker-compose.override.yml
+
+# === Optional: IDEs, JetBrains, etc. ===
+.idea/
+*.sublime-workspace
+*.sublime-project

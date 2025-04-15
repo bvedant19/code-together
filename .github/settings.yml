@@ -1,0 +1,25 @@
+repository:
+  name: Code-Sync
+  description: A real-time collaborative code editor
+  has_issues: true
+  has_projects: true
+  has_wiki: true
+  has_downloads: true
+  allow_squash_merge: true
+  allow_merge_commit: true
+  allow_rebase_merge: true
+  allow_auto_merge: false
+  delete_branch_on_merge: true
+  allow_forking: true
+  web_commit_signoff_required: false
+  security_and_analysis:
+    secret_scanning:
+      status: enabled
+    secret_scanning_push_protection:
+      status: disabled
+    dependabot_security_updates:
+      status: disabled
+    code_scanning:
+      status: disabled
+  copilot:
+    enabled: false 
